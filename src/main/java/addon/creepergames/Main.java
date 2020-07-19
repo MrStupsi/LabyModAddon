@@ -39,7 +39,7 @@ public class Main extends LabyModAddon {
 						saveConfig();
 					}
 				},
-				true);
+				getConfig().get("zweiterchat").getAsBoolean());
 	    list.add(zweiterChat);
 	}
 	
