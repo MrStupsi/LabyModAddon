@@ -1,0 +1,10 @@
+{
+	"uuid": "%uuid%",
+	"name": "CreeperGames",
+	"mainClass": "addon.creepergames.Main",
+	"description": "Das LabyMod-Addon für CreeperGames",
+	"version": 1,
+	"author": "MrStupsi",
+	"category": 1,
+	"icon": "https://minotar.net/avatar/creeper.png"
+}
