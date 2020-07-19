@@ -11,7 +11,7 @@ import net.minecraft.network.PacketBuffer;
 
 public class CreeperGamesServer extends Server {
 	public CreeperGamesServer() {
-		super("CreeperGames", "griefergames.net");
+		super("CreeperGames", "creepergames.serveminecraft.net");
 	}
 	
 	@Override
@@ -34,7 +34,7 @@ public class CreeperGamesServer extends Server {
 			if (unformatted.startsWith("[Spectator-Chat]")) {
 				return ChatDisplayAction.SWAP;
 			}
-			if (unformatted.startsWith("[Global]")) {
+			/*if (unformatted.startsWith("[Global]")) {
 				return ChatDisplayAction.SWAP;
 			}
 			if (unformatted.endsWith(": gg") || unformatted.endsWith(": Gg") ||
@@ -44,7 +44,7 @@ public class CreeperGamesServer extends Server {
 			if (unformatted.endsWith(": bg") || unformatted.endsWith(": Bg") ||
 					unformatted.endsWith(": bG") || unformatted.endsWith(": BG")) {
 				return ChatDisplayAction.SWAP;
-			}
+			}*/
 		}
 		return null;
 	}
