@@ -35,6 +35,7 @@ public class CreeperGamesServer extends Server {
 				return ChatDisplayAction.SWAP;
 			}
 		}
+		
 		return null;
 	}
 	
